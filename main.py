@@ -15,8 +15,8 @@ if day_of_week == 5:
     qoute = random.choice(all_qoutes)
     print(qoute)
     #email sending 
-    my_email = "parijpatel07@gmail.com"
-    passs ="idbw dvsq herb vdyh"
+    my_email = "xyz@gmail.com"
+    passs ="xyz"
     connection = smtplib.SMTP("smtp.gmail.com",587)
     connection.starttls()
     connection.login(user = my_email , password = passs)

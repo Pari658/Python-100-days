@@ -33,8 +33,9 @@ def isNight():
 def sendmail():
   with smtplib.SMTP("smtp.gmail.com",587) as connection:
     connection.starttls()
-    connection.login("parijpatel07@gmail.com","idbw dvsq herb vdyh")
-    connection.sendmail(from_addr = "parijpatel07@gmail.com",to_addrs="24cp035@bvmengineering.ac.in",msg = f"subject: LookUp there is an iss")
+    connection.login("xyz@gmail.com","xyz")
+    connection.sendmail(from_addr = "xyz@gmail.com",to_addrs="abc@gmail.comn",msg = f"subject: LookUp there is an iss")
     
 if isIssNear() and isNight():
   sendmail()
+

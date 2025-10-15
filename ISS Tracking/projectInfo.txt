@@ -1,0 +1,8 @@
+🚀 Project: International Space Station (ISS) Tracker
+This project uses Python along with a public API to track the real-time location of the International Space Station (ISS).
+I learned how to:
+->Fetch live data from an API using the requests library
+->Parse JSON responses to extract latitude and longitude
+->Display the ISS’s current position dynamically
+
+It’s a fun way to apply Python and API concepts to something happening in real life — tracking a spacecraft orbiting Earth! 🌍✨
